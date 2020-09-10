@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(131, 92, 79);
+}
+
 .bgcontainer {
   background: rgb(131, 92, 79);
   display: flex;
