@@ -1,0 +1,56 @@
+.bgcontainer {
+  background: rgb(131, 92, 79);
+  display: flex;
+  height: 99vh;
+  width: 100.6%;
+  margin: -10px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+  align-items: stretch;
+  flex-basis: auto;
+  padding: 5px;
+}
+
+.secondary {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* margin: 10px; */
+}
+
+.up {
+  background: rgb(156, 115, 93);
+  flex-grow: 1;
+  margin:5px;
+  /* justify-content: center; */
+}
+
+.tertiary {
+  background: rgb(161, 128, 117);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: stretch;
+  margin:5px;
+  padding:5px;
+}
+
+.down {
+  background: rgb(213, 69, 59);
+  margin:0px;
+  flex-grow: 1;
+  /* height: 50% */
+}
+
+.baby {
+  background: rgb(180, 130, 119);
+  flex-shrink: 1;
+  /* margin:50px; */
+  width: 20%;
+  height: 20%;
+  margin:5px;
+}
