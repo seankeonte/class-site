@@ -57,6 +57,7 @@ h4 {
 img {
   filter: blur(5px);
   opacity: 50%;
+  transition: opacity 1s ease, filter 3s ease;
 }
 
 img:hover {

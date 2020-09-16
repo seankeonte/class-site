@@ -79,6 +79,10 @@ body {
   justify-content: space-around;
 }
 
+.bawdy:hover {
+  width: 210px;
+}
+
 .head {
   background: rgb(126, 85, 62);
   height: 90px;
@@ -88,6 +92,11 @@ body {
   text-align: center;
   font-size: 15pt;
   font-family:sans-serif;
+}
+
+.head:hover {
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .ear {
