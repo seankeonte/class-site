@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  background: rgb(0, 0, 0);
+}
+
+.bg {
+  background: blue;
+  display: flex;
+  flex-direction: column;
+  width:100vw;
+  height:100vh;
+}
+
+.sea {
+  /* background: black; */
+  background-image: url(waves.gif);
+  background-size: cover;
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  height:50%;
+  justify-content:space-between;
+  /* align-items: center; */
+  /* padding: 20px; */
+}
+
+.moon {
+  /* margin-top: 20px; */
+  margin: 20px 50%;
+  height: 100px;
+  width: 103px;
+  background: white;
+  border-radius: 50%;
+  filter:blur(4px);
+  animation: 3s spin infinite alternate;
+  position: fixed;
+  top: 15px;
+}
+
+.oyster {
+  height: 120px;
+  width: 200px;
+  background: white;
+  border-radius: 50%;
+  /* margin: 0 10%; */
+  animation: 70s travel infinite;
+  filter:blur(20px);
+  margin-top:-10px;
+}
+
+.pearl {
+  margin-top: 30px;
+  background:white;
+  width:1em;
+  height:1em;
+  border-radius: 50%;
+  animation: 7.3s drift infinite alternate;
+}
+
+.pearl2 {
+  margin-top: 30px;
+  background:white;
+  width:1em;
+  height:1em;
+  border-radius: 50%;
+  animation: 6.52s drift infinite alternate;
+}
+
+.pearl3 {
+  margin-top: 30px;
+  background:white;
+  width:1em;
+  height:1em;
+  border-radius: 50%;
+  animation: 6.9s drift infinite alternate;
+}
+
+.pearl4 {
+  margin: 30px;
+  background:white;
+  width:1em;
+  height:1em;
+  border-radius: 50%;
+  animation: 7.4s drift infinite alternate;
+}
+
+@keyframes drift {
+  0% {
+    transform: translatey(0px);
+  }
+
+  100% {
+    transform: translatey(400px);
+  }
+}
+
+@keyframes sky {
+  0% {
+    background: #232447;
+  }
+  10% {
+    background: rgb(42, 33, 57);
+  }
+  50% {
+    background: rgb(24, 31, 51);
+  }
+  90% {
+    background: rgb(49, 29, 56);
+  }
+  100% {
+    background: rgb(36, 27, 51);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes travel {
+  0% {
+    transform: translatex(-1400px);
+  }
+
+  100% {
+    transform: translatex(1200px);
+  }
+
+}
+
+.moon:hover {
+  height:700px;
+  width:720px;
+  background:rgb(109, 195, 35);
+  top:-345px;
+}
