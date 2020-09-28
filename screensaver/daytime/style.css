@@ -13,6 +13,7 @@ a {
   flex-direction: column;
   width:100vw;
   height:100vh;
+  overflow: hidden;
 }
 
 .sea {
@@ -91,21 +92,28 @@ a {
 
 @keyframes drift {
   0% {
-    transform: translatex(0px);
+    transform: translate(0px,-100px);
   }
-
+  50% {
+    transform: translate(800px,0px);
+  }
+  75% {
+    transform: translate(200px,200px);
+  }
   100% {
-    transform: translatex(400px);
+    transform: translate(0px,0px);
   }
 }
 
 @keyframes drift2 {
   0% {
-    transform: translatey(0px);
+    transform: translate(0px,0px);
   }
-
+  50% {
+    transform: translate(200px,-400px);
+  }
   100% {
-    transform: translatey(400px);
+    transform: translatey(400px,800px);
   }
 }
 
@@ -138,15 +146,15 @@ a {
 
 @keyframes travel {
   0% {
-    transform: translatex(-3000px);
+    transform: translatex(-1600px);
 
   }
-  25% {
+  5% {
     transform: translatex(-1200px);
   }
-  50% {
-    transform: translatex(-1600px);
-  }
+  /* 50% { */
+    /* transform: translatex(200px); */
+  /* } */
 
   100% {
     transform: translatex(800px);
