@@ -41,12 +41,9 @@
   display: inline;
 }
 
-}
-h1 {
-  font-family: salden, serif;
-}
+
 h2 {
-  font-family: salden, serif;
+  font-family: salden, jaf-lapture, cursive;
   font-size: 20pt;
   text-align: center;
 }
@@ -77,4 +74,9 @@ img {
   width:350px;
   margin-left:45px;
   mix-blend-mode: color-burn;
+}
+
+}
+h1 {
+  font-family: salden, jaf-lapture, cursive;
 }
