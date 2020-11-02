@@ -76,10 +76,8 @@ img {
   mix-blend-mode: color-burn;
 }
 
-}
 h1 {
-  font-family: salden, jaf-lapture, cursive;
   font-family: salden, serif;
-  font-weight: 300;
+  /* font-weight: 300; */
   font-style: normal;
 }
