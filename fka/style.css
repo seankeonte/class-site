@@ -5,6 +5,10 @@
   color: rgb(66, 67, 124);
 }
 
+p {
+  font-size: 14pt;
+}
+
 #videobg {
   position: fixed;
   right: 0;
@@ -35,7 +39,13 @@
 
 }
 
-#img {
+::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;  /* creates padding around scroll thumb */
+}
+
+/* #img {
   cursor: pointer;
   transition: 0.3s;
 }
@@ -97,4 +107,4 @@
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
-}
+} */
